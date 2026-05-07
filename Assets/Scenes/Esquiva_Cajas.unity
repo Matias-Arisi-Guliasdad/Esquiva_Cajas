@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cajaMovementScript: {fileID: 0}
-  VelocidadCaja: 2
+  VelocidadCaja: 5
 --- !u!114 &40050461
 MonoBehaviour:
   m_ObjectHideFlags: 0
