@@ -7,6 +7,7 @@ public class CajaMovement : MonoBehaviour
 {
     public CajaMovement cajaMovementScript;
     float initialYValue;
+    public float AumentodeVelocidad = 0.1f;
     public float VelocidadCaja = 2f;
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,7 @@ public class CajaMovement : MonoBehaviour
         newPosition.y = initialYValue;
         
         transform.position = newPosition;
-        
+        VelocidadCaja += AumentodeVelocidad;
     }
+    
 }
